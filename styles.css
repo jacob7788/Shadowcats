@@ -1,0 +1,41 @@
+/* Phases Section */
+.phases-section {
+    padding: 40px 20px;
+    background: #0d0d0d;
+    text-align: center;
+}
+
+.phases-section h2 {
+    font-size: 2em;
+    color: #a600ff;
+}
+
+.phases {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.phase {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.phase:hover {
+    transform: translateY(-5px);
+}
+
+.phase h3 {
+    color: #a600ff;
+    font-size: 1.5em;
+}
+
+.phase p {
+    color: #d3d3d3;
+    font-size: 1em;
+}
